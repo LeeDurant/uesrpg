@@ -16,7 +16,7 @@
             "manifest": "https://gitlab.com/DogBoneZone/uesrpg-3e/raw/master/system.json"
         },
 		{
-			"name": "vtt-compendium-folders",
+			"name": "compendium-folders",
 			"type": "module",
 			"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/082-update/module.json"
 		}
