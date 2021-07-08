@@ -58,25 +58,11 @@
       "module": "uesrpg"
     },
 	{
-      "name": "uesrpg-macros",
-      "label": "Book of Macros",
-      "module": "uesrpg",
-      "path": "packs/communitymacros.db",
-      "entity": "Macro"
-    },
-	{
       "name": "uesrpg-music",
       "label": "Book of Songs",
       "module": "uesrpg",
       "path": "packs/uesrpg-music.db",
       "entity": "Playlist"
-    },
-    {
-	   "name": "rolltables",
-       "label": "Book of Rolltables",
-       "path": "packs/rolltables.db",
-       "module": "uesrpg",
-       "entity": "RollTable"
     },
     {
       "name": "scenes",
