@@ -11,12 +11,12 @@
    "download": "https://github.com/LeeDurant/uesrpg/archive/refs/heads/main.zip",
    "dependencies": [
         {
-            "name": ["uesrpg-d100"],
+            "name": "uesrpg-d100",
             "type": "system",
             "manifest": "https://gitlab.com/DogBoneZone/uesrpg-3e/raw/master/system.json"
-        }
+        },
 		{
-			"name": ["vtt-compendium-folders"],
+			"name": "vtt-compendium-folders",
 			"type": "module",
 			"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/082-update/module.json"
 		}
