@@ -1,0 +1,83 @@
+{   
+   "name": "uesrpg",
+   "title": "UESRPG Enhancements",
+   "description": "Enhancements and personalized compendiums for UESRPG d100",
+   "author": "Chairman Wow!",
+   "version": "0.1",
+   "minimumCoreVersion": "0.8.8",
+   "compatibleCoreVersion":"0.8.8",
+   "URL": "https://github.com/LeeDurant/uesrpg",
+   "download": "https://github.com/LeeDurant/uesrpg/archive/refs/heads/main.zip",
+   "dependencies": [
+        {
+            "name": "uesrpg-d100",
+            "type": "system",
+            "manifest": "https://gitlab.com/DogBoneZone/uesrpg-3e/raw/master/system.json"
+        }
+    ],
+   "packs": [
+	{
+      "name": "faces",
+      "label": "Book of Faces",
+      "path": "packs/faces.db",
+      "entity": "Actor",
+      "module": "uesrpg"
+    },
+	{
+      "name": "weapons",
+      "label": "Book of Combat",
+      "path": "packs/weapons.db",
+      "entity": "Item",
+      "module": "uesrpg"
+    },
+	{
+      "name": "armor",
+      "label": "Book of Apparel",
+      "path": "packs/armor.db",
+      "entity": "Item",
+      "module": "uesrpg"
+    },
+	{
+      "name": "gear",
+      "label": "Book of Many Things",
+      "path": "packs/gear.db",
+      "entity": "Item",
+      "module": "uesrpg"
+    },
+	{
+      "name": "vehicles",
+      "label": "Book of Travel",
+      "path": "packs/vehicles.db",
+      "entity": "Actor",
+      "module": "uesrpg"
+    },
+	{
+      "name": "uesrpg-macros",
+      "label": "Book of Macros",
+      "module": "uesrpg",
+      "path": "packs/communitymacros.db",
+      "entity": "Macro"
+    },
+	{
+      "name": "uesrpg-music",
+      "label": "Book of Songs",
+      "module": "uesrpg",
+      "path": "packs/uesrpg-music.db",
+      "entity": "Playlist"
+    },
+    {
+	   "name": "rolltables",
+       "label": "Book of Rolltables",
+       "path": "packs/rolltables.db",
+       "module": "uesrpg",
+       "entity": "RollTable"
+    },
+    {
+      "name": "scenes",
+      "label": "UESRPG Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "module": "uesrpg"
+    }
+  ]
+ }
